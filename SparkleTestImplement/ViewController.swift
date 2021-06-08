@@ -21,6 +21,8 @@ class ViewController: NSViewController {
         }
     }
 
-
+    @IBAction func checkUpdatePressBtn(_ sender: Any) {
+    }
+    
 }
 
