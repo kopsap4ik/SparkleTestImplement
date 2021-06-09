@@ -18,9 +18,10 @@
             </description>
             <pubDate>Sat, 26 Jul 2014 15:21:11 +0000</pubDate>
             <enclosure url="https://github.com/kopsap4ik/SparkleTestImplement/releases/download/3.0/SparkleTestImplement.app.zip"
+            sparkle:version="3"
             sparkle:shortVersionString="2.0"
-            length="4885489"
             type="application/octet-stream"
+            length="4885489"
             sparkle:edSignature="iQLXILlQLmzfZGd6n40pr+HELyQo9I66gIQRbLRDJEEwgWvhJ37+KF+9CzK8M5H+fFlqgYOyymfDEFk+FMd0Cg=="/>
         </item>
         <item>
@@ -37,9 +38,10 @@
             </description>
             <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
             <enclosure url="https://github.com/kopsap4ik/SparkleTestImplement/releases/download/2.0/SparkleTestImplement.app.zip"
+            sparkle:version="2"
             sparkle:shortVersionString="2.0"
-            length="4475509"
             type="application/octet-stream"
+            length="4475509"
             sparkle:edSignature="jzcg/ZSwX1HuVf0Omkk1O5TIPrHVaCRG9bVimGCzNEqowtJMjmIftnXXlsbAUSBAGQOzoXU5thfYIP9THIDxCg=="/>
         </item>
     </channel>
