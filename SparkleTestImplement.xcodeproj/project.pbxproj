@@ -12,6 +12,7 @@
 		D907AF13266FDF0100A0BDDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907AF12266FDF0100A0BDDB /* ViewController.swift */; };
 		D907AF15266FDF0400A0BDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D907AF14266FDF0400A0BDDB /* Assets.xcassets */; };
 		D907AF18266FDF0400A0BDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D907AF16266FDF0400A0BDDB /* Main.storyboard */; };
+		D907AF222670EBBD00A0BDDB /* sparkletestcast.xml in Resources */ = {isa = PBXBuildFile; fileRef = D907AF212670EBBD00A0BDDB /* sparkletestcast.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D907AF17266FDF0400A0BDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D907AF19266FDF0400A0BDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D907AF1A266FDF0400A0BDDB /* SparkleTestImplement.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SparkleTestImplement.entitlements; sourceTree = "<group>"; };
+		D907AF212670EBBD00A0BDDB /* sparkletestcast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sparkletestcast.xml; sourceTree = "<group>"; };
 		E130E0F18E13614B945BCD92 /* Pods_SparkleTestImplement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkleTestImplement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,6 +79,7 @@
 		D907AF0F266FDF0100A0BDDB /* SparkleTestImplement */ = {
 			isa = PBXGroup;
 			children = (
+				D907AF202670EBBD00A0BDDB /* Supporting Files */,
 				D907AF10266FDF0100A0BDDB /* AppDelegate.swift */,
 				D907AF12266FDF0100A0BDDB /* ViewController.swift */,
 				D907AF14266FDF0400A0BDDB /* Assets.xcassets */,
@@ -85,6 +88,14 @@
 				D907AF1A266FDF0400A0BDDB /* SparkleTestImplement.entitlements */,
 			);
 			path = SparkleTestImplement;
+			sourceTree = "<group>";
+		};
+		D907AF202670EBBD00A0BDDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D907AF212670EBBD00A0BDDB /* sparkletestcast.xml */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D907AF222670EBBD00A0BDDB /* sparkletestcast.xml in Resources */,
 				D907AF15266FDF0400A0BDDB /* Assets.xcassets in Resources */,
 				D907AF18266FDF0400A0BDDB /* Main.storyboard in Resources */,
 			);
