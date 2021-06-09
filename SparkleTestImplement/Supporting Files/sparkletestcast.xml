@@ -1,38 +1,25 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-    <channel>
-        <title>SparkleTestImplement</title>
-        <item>
-            <title>2.0</title>
-            <pubDate>Ср, 09 июня 2021 16:17:30 +0300</pubDate>
-            <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/kopsap4ik/SparkleTestImplement/releases/download/2.0/SparkleTestImplement.app.zip" sparkle:version="1" sparkle:shortVersionString="2.0" length="4485925" type="application/octet-stream" sparkle:edSignature="Tf3fBqwfocl8A0aZIukT+sncVn5rOL9Op8ZoLpt9HT+BkhjBlSRWAFjeytQqX9w+egbWGJcv/qWJjDhsCyIRAA=="/>
-        </item>
-    </channel>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Sparkle Test App Changelog</title>
+    <link>http://sparkle-project.org/files/sparkletestcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+      <item>
+          <title>SparkleTestImplement</title>
+        <description>
+          <![CDATA[
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li>
+              <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li>
+              <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li>
+            </ul>
+          ]]>
+        </description>
+        <pubDate>Ср, 09 июня 2021 16:17:30 +0300</pubDate>
+        <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
+        <enclosure url="https://github.com/kopsap4ik/SparkleTestImplement/releases/download/2.0/SparkleTestImplement.app.zip" sparkle:version="1" sparkle:shortVersionString="2.0" length="4485925" type="application/octet-stream" sparkle:edSignature="Tf3fBqwfocl8A0aZIukT+sncVn5rOL9Op8ZoLpt9HT+BkhjBlSRWAFjeytQqX9w+egbWGJcv/qWJjDhsCyIRAA=="/>
+      </item>
+  </channel>
 </rss>
-<!--<?xml version="1.0" encoding="utf-8"?>-->
-<!--<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">-->
-<!--  <channel>-->
-<!--    <title>Sparkle Test App Changelog</title>-->
-<!--    <link>http://sparkle-project.org/files/sparkletestcast.xml</link>-->
-<!--    <description>Most recent changes with links to updates.</description>-->
-<!--    <language>en</language>-->
-<!--      <item>-->
-<!--          <title>SparkleTestImplement</title>-->
-<!--        <description>-->
-<!--          <![CDATA[-->
-<!--            <ul>-->
-<!--              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>-->
-<!--              <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li>-->
-<!--              <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li>-->
-<!--              <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li>-->
-<!--            </ul>-->
-<!--          ]]>-->
-<!--        </description>-->
-<!--        <pubDate>Ср, 09 июня 2021 16:17:30 +0300</pubDate>-->
-<!--        <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>-->
-<!--        <enclosure url="https://github.com/kopsap4ik/SparkleTestImplement/releases/download/2.0/SparkleTestImplement.app.zip" sparkle:version="1" sparkle:shortVersionString="2.0" length="4485925" type="application/octet-stream" sparkle:edSignature="Tf3fBqwfocl8A0aZIukT+sncVn5rOL9Op8ZoLpt9HT+BkhjBlSRWAFjeytQqX9w+egbWGJcv/qWJjDhsCyIRAA=="/>-->
-<!--<!--        <enclosure url="https://github.com/kopsap4ik/SparkleTestImplement/releases/download/2.0/SparkleTestImplement.app.zip" sparkle:version="2.0" length="4485925" type="application/octet-stream" sparkle:edSignature="Tf3fBqwfocl8A0aZIukT+sncVn5rOL9Op8ZoLpt9HT+BkhjBlSRWAFjeytQqX9w+egbWGJcv/qWJjDhsCyIRAA==" />-->-->
-<!--      </item>-->
-<!--  </channel>-->
-<!--</rss>-->
