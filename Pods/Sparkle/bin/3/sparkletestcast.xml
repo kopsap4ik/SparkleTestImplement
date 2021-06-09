@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>SparkleTestImplement</title>
+        <item>
+            <title>3.0</title>
+            <pubDate>Ср, 09 июня 2021 21:39:26 +0300</pubDate>
+            <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/kopsap4ik/SparkleTestImplement/raw/master/SparkleTestImplement/Supporting%20Files/SparkleTestImplement.app.zip" sparkle:version="3" sparkle:shortVersionString="3.0" length="4475707" type="application/octet-stream" sparkle:edSignature="1u2zat9XsQ1q0Lue5EflxGI3B7hn2egsgix4tMtG4OgVk+3ClxiEszAJZkE/R1e8jV/FuItr7azHKqScWYrOAw=="/>
+        </item>
+    </channel>
+</rss>
