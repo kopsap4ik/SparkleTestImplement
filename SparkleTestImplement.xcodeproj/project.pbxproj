@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72890E0C6DB05DE25577604B /* Pods_SparkleTestImplement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E130E0F18E13614B945BCD92 /* Pods_SparkleTestImplement.framework */; };
 		D907AF11266FDF0100A0BDDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907AF10266FDF0100A0BDDB /* AppDelegate.swift */; };
 		D907AF13266FDF0100A0BDDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907AF12266FDF0100A0BDDB /* ViewController.swift */; };
 		D907AF15266FDF0400A0BDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D907AF14266FDF0400A0BDDB /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E4BF345B49C6AE0E1DF6A97 /* Pods-SparkleTestImplement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkleTestImplement.debug.xcconfig"; path = "Target Support Files/Pods-SparkleTestImplement/Pods-SparkleTestImplement.debug.xcconfig"; sourceTree = "<group>"; };
+		C9991A10430F06AA16EAFC8B /* Pods-SparkleTestImplement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SparkleTestImplement.release.xcconfig"; path = "Target Support Files/Pods-SparkleTestImplement/Pods-SparkleTestImplement.release.xcconfig"; sourceTree = "<group>"; };
 		D907AF0D266FDF0100A0BDDB /* SparkleTestImplement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkleTestImplement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D907AF10266FDF0100A0BDDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D907AF12266FDF0100A0BDDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +24,7 @@
 		D907AF17266FDF0400A0BDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D907AF19266FDF0400A0BDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D907AF1A266FDF0400A0BDDB /* SparkleTestImplement.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SparkleTestImplement.entitlements; sourceTree = "<group>"; };
+		E130E0F18E13614B945BCD92 /* Pods_SparkleTestImplement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SparkleTestImplement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +32,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72890E0C6DB05DE25577604B /* Pods_SparkleTestImplement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83B03B040F6F4A716C38B7E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E130E0F18E13614B945BCD92 /* Pods_SparkleTestImplement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97A45A245108FCAAFF8AC728 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E4BF345B49C6AE0E1DF6A97 /* Pods-SparkleTestImplement.debug.xcconfig */,
+				C9991A10430F06AA16EAFC8B /* Pods-SparkleTestImplement.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D907AF04266FDF0100A0BDDB = {
 			isa = PBXGroup;
 			children = (
 				D907AF0F266FDF0100A0BDDB /* SparkleTestImplement */,
 				D907AF0E266FDF0100A0BDDB /* Products */,
+				97A45A245108FCAAFF8AC728 /* Pods */,
+				83B03B040F6F4A716C38B7E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,9 +94,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D907AF1D266FDF0400A0BDDB /* Build configuration list for PBXNativeTarget "SparkleTestImplement" */;
 			buildPhases = (
+				6AB2199E14E922BEF920F309 /* [CP] Check Pods Manifest.lock */,
 				D907AF09266FDF0100A0BDDB /* Sources */,
 				D907AF0A266FDF0100A0BDDB /* Frameworks */,
 				D907AF0B266FDF0100A0BDDB /* Resources */,
+				F502EDC3640AB0914D776833 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +152,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AB2199E14E922BEF920F309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SparkleTestImplement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F502EDC3640AB0914D776833 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkleTestImplement/Pods-SparkleTestImplement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SparkleTestImplement/Pods-SparkleTestImplement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SparkleTestImplement/Pods-SparkleTestImplement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D907AF09266FDF0100A0BDDB /* Sources */ = {
@@ -202,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -257,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -268,6 +336,7 @@
 		};
 		D907AF1E266FDF0400A0BDDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E4BF345B49C6AE0E1DF6A97 /* Pods-SparkleTestImplement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,6 +358,7 @@
 		};
 		D907AF1F266FDF0400A0BDDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9991A10430F06AA16EAFC8B /* Pods-SparkleTestImplement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
