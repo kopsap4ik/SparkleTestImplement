@@ -24,8 +24,7 @@ class ViewController: NSViewController {
 
     @IBAction func checkUpdatePressBtn(_ sender: Any) {
         let updater = SUUpdater.shared()
-                updater?.feedURL = URL(string: "https://github.com/kopsap4ik/SparkleTestImplement/raw/master/SparkleTestImplement/Supporting%20Files/sparkletestcast.xml")
-                updater?.checkForUpdates(self)
+        updater?.checkForUpdates(self)
     }
     
 }
