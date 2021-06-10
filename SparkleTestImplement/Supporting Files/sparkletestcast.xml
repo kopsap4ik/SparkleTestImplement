@@ -27,28 +27,5 @@
             sparkle:edSignature="1u2zat9XsQ1q0Lue5EflxGI3B7hn2egsgix4tMtG4OgVk+3ClxiEszAJZkE/R1e8jV/FuItr7azHKqScWYrOAw=="
             />
         </item>
-        <item>
-            <title>Version 2.0</title>
-            <description>
-                <![CDATA[
-                    <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li>
-                    <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li>
-                    <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li>
-                    </ul>
-                ]]>
-            </description>
-            <pubDate>Wed, 09 Jun 2021 15:20:11 +0300</pubDate>
-            <sparkle:minimumSystemVersion>10.14</sparkle:minimumSystemVersion>
-            <enclosure
-            url="https://github.com/kopsap4ik/SparkleTestImplement/releases/download/2.0/SparkleTestImplement.app.zip"
-            sparkle:version="1"
-            sparkle:shortVersionString="2.0"
-            length="4475509"
-            type="application/octet-stream"
-            sparkle:edSignature="jzcg/ZSwX1HuVf0Omkk1O5TIPrHVaCRG9bVimGCzNEqowtJMjmIftnXXlsbAUSBAGQOzoXU5thfYIP9THIDxCg=="
-            />
-        </item>
     </channel>
 </rss>
